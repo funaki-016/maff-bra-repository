@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="Maff.BRA.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false"/>
+        </sectionGroup>
+    </configSections>
+	<connectionStrings>
+    <add name="Maff.BRA.My.MySettings.COMMConnectionString" connectionString="Data Source=stgmaffrdsvf0302a.chtr7bdsvdpk.ap-northeast-1.rds.amazonaws.com;Initial Catalog=COMM;User ID=sa;Password=Nosuitoukei2024" />
+    <add name="Maff.BRA.My.MySettings.BRAHConnectionString" connectionString="Data Source=stgmaffrdsvf0302a.chtr7bdsvdpk.ap-northeast-1.rds.amazonaws.com;Initial Catalog=BRAH;User ID=sa;Password=Nosuitoukei2024" />
+    <add name="Maff.BRA.My.MySettings.BRANConnectionString" connectionString="Data Source=stgmaffrdsvf0302a.chtr7bdsvdpk.ap-northeast-1.rds.amazonaws.com;Initial Catalog=BRAN;User ID=sa;Password=Nosuitoukei2024" />
+    <add name="Maff.BRA.My.MySettings.BRASConnectionString" connectionString="Data Source=stgmaffrdsvf0302a.chtr7bdsvdpk.ap-northeast-1.rds.amazonaws.com;Initial Catalog=BRAS;User ID=sa;Password=Nosuitoukei2024" />
+	</connectionStrings>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8"/>
+    </startup>
+    <userSettings>
+        <Maff.BRA.My.MySettings>
+            <setting name="IniFile" serializeAs="String">
+                <value>Path.ini</value>
+            </setting>
+            <setting name="HyohonMaxResult" serializeAs="String">
+                <value>1000</value>
+            </setting>
+        </Maff.BRA.My.MySettings>
+    </userSettings>
+</configuration>
